@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Editor</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 900px; margin: 20px auto; padding: 20px; background-color: #f4f7f6; }
+        h1, h2 { color: #333; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        fieldset { border: 1px solid #ccc; border-radius: 8px; margin-bottom: 20px; padding: 20px; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        legend { font-weight: bold; font-size: 1.2em; padding: 0 10px; color: #005a9c; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #555; }
+        input[type="text"], textarea { width: 98%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; font-size: 1em; }
+        textarea { min-height: 100px; resize: vertical; }
+        button { padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; margin-right: 10px; }
+        .btn-main { background-color: #28a745; color: white; }
+        .btn-secondary { background-color: #007bff; color: white; }
+        .btn-add { background-color: #17a2b8; color: white; margin-bottom: 15px; }
+        .btn-remove { background-color: #dc3545; color: white; padding: 5px 10px; font-size: 0.8em; float: right; }
+        .item-container { border-left: 3px solid #007bff; padding: 15px; margin-bottom: 20px; background-color: #fafafa; border-radius: 5px; }
+        #json-output { width: 98%; min-height: 300px; font-family: monospace; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <h1>Resume Content Editor</h1>
+    <p>Use this form to update your resume content. Click 'Load' to start, make your changes, then click 'Generate' and copy the output into your `resume.json` file.</p>
+    <button id="load-btn" class="btn-secondary">Load Existing resume.json</button>
+
+    <form id="resume-form">
+        <fieldset>
+            <legend>Meta & SEO Data</legend>
+            <label for="meta-title">Page Title (Browser Tab):</label>
+            <input type="text" id="meta-title">
+            <label for="meta-description">SEO Description:</label>
+            <textarea id="meta-description"></textarea>
+            <label for="meta-keywords">SEO Keywords (comma-separated):</label>
+            <input type="text" id="meta-keywords">
+            <label for="meta-ogTitle">Social Media Title (for LinkedIn, etc.):</label>
+            <input type="text" id="meta-ogTitle">
+            <label for="meta-ogDescription">Social Media Description:</label>
+            <textarea id="meta-ogDescription"></textarea>
+            <label for="meta-twitterDescription">Twitter Description:</label>
+            <textarea id="meta-twitterDescription"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Info (Header)</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="title">Title:</label>
+            <input type="text" id="title">
+            <hr style="margin: 20px 0;">
+            <h4>Contact Details</h4>
+            <label for="contact-location">Location:</label>
+            <input type="text" id="contact-location">
+            <label for="contact-phone">Phone:</label>
+            <input type="text" id="contact-phone">
+            <label for="contact-email">Email:</label>
+            <input type="text" id="contact-email">
+            <label for="contact-linkedin">LinkedIn URL:</label>
+            <input type="text" id="contact-linkedin">
+            <label for="contact-github">GitHub URL:</label>
+            <input type="text" id="contact-github">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Professional Summary</legend>
+            <label for="summary">Summary Content:</label>
+            <textarea id="summary"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Core Technologies</legend>
+            <div id="technologies-container"></div>
+            <button type="button" class="btn-add" onclick="addTechnology()">+ Add Technology Category</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Professional Experience</legend>
+            <div id="experience-container"></div>
+            <button type="button" class="btn-add" onclick="addExperience()">+ Add Experience</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Featured Projects</legend>
+            <div id="projects-container"></div>
+            <button type="button" class="btn-add" onclick="addProject()">+ Add Project</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <div id="education-container"></div>
+            <button type="button" class="btn-add" onclick="addEducation()">+ Add Education</button>
+        </fieldset>
+    </form>
+
+    <button id="generate-btn" class="btn-main">Generate JSON</button>
+    
+    <h2>Generated JSON Output:</h2>
+    <textarea id="json-output" readonly></textarea>
+
+    <script src="editor.js"></script>
+
+</body>
+</html>

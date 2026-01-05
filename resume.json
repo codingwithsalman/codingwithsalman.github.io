@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Muhammad Salman - Senior Mobile Applications Engineer",
+    "description": "Resume of Muhammad Salman - Senior Android Engineer with 5+ years of experience in Kotlin, Java, Jetpack Compose, and scalable mobile app development.",
+    "keywords": "Muhammad Salman, Android Engineer, Senior Mobile Developer, Kotlin, Lahore, Resume, Portfolio, Compose Multiplatform, Jetpack Compose",
+    "social": {
+      "ogTitle": "Muhammad Salman - Senior Mobile Applications Engineer",
+      "ogDescription": "5+ years of experience in Android | Built apps with 10M+ downloads | Expert in Kotlin, Java, Jetpack Compose, Firebase",
+      "twitterDescription": "Android Engineer | Apps with 10M+ downloads",
+      "imageUrl": "https://adnaanaeem.github.io/profile.jpg",
+      "resumeUrl": "https://adnaanaeem.github.io/"
+    },
+    "structuredData": {
+      "name": "Adnan Naeem",
+      "jobTitle": "Senior Mobile Applications Engineer",
+      "image": "https://adnaanaeem.github.io/profile.jpg",
+      "addressLocality": "Lahore",
+      "addressCountry": "PK",
+      "email": "mailto:adnaanaeem@gmail.com",
+      "telephone": "+923438673052",
+      "sameAs": [
+        "https://linkedin.com/in/adnaanaeem",
+        "https://github.com/adnaanaeem"
+      ],
+      "knowsAbout": [
+        "Android",
+        "Kotlin",
+        "React Native",
+        "Jetpack Compose",
+        "Mobile Applications",
+        "Firebase",
+        "MVVM"
+      ]
+    }
+  },
+  "personalInfo": {
+    "name": "MUHAMMAD SALMAN",
+    "title": "Senior Mobile Applications Engineer (Android)",
+    "contact": {
+      "location": "Lahore, Pakistan",
+      "phone": "+92 315 4321282",
+      "email": "codingwithsalman@gmail.com",
+      "linkedin": "https://linkedin.com/in/markhor1999",
+      "github": "https://github.com/codingwithsalman"
+    }
+  },
+  "sections": [
+    {
+      "type": "summary",
+      "title": "Professional Summary",
+      "content": "Senior Mobile Applications Engineer with 5+ years of experience architecting and delivering scalable Android apps (10M+ downloads). Proficient in Kotlin, Java, Jetpack Compose, and Firebase, with expertise in performance optimization, Jenkins CI/CD pipelines, and modern Android frameworks. Proven leader in driving architectural enhancements, accelerating delivery, and building high-performing teams, with Compose Multiplatform as a secondary skill for cross-platform development."
+    },
+    {
+      "type": "technologies",
+      "title": "Core Technologies",
+      "items": [
+        {
+          "category": "Mobile Development",
+          "skills": [
+            "Kotlin",
+            "Java",
+            "Compose Multiplatform",
+            "Jetpack Compose"
+          ]
+        },
+        {
+          "category": "Architecture & Patterns",
+          "skills": [
+            "MVVM",
+            "Dagger",
+            "Coroutines",
+            "Room",
+            "Navigation"
+          ]
+        },
+        {
+          "category": "Testing & Quality",
+          "skills": [
+            "JUnit",
+            "Mockito",
+            "MockK",
+            "Code Reviews"
+          ]
+        },
+        {
+          "category": "Cloud & Integration",
+          "skills": [
+            "Firebase",
+            "AWS",
+            "REST APIs",
+            "JSON"
+          ]
+        },
+        {
+          "category": "Development Tools",
+          "skills": [
+            "Android Studio",
+            "Git",
+            "Jira",
+            "Agile",
+            "Jenkins"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "experience",
+      "title": "Professional Experience",
+      "items": [
+        {
+          "company": "AOMATA LLC",
+          "role": "Senior Software Engineer (Android)",
+          "period": "April 2021 - Present | Lahore, Pakistan",
+          "achievements": [
+            "Implemented architectural improvements that enhanced engineering velocity.",
+            "Led end-to-end feature development ensuring consistent, timely product releases",
+            "Collaborated cross-functionally with product teams to deliver user-centric solutions"
+          ]
+        },
+        {
+          "company": "PRESOFT",
+          "role": "Mobile Apps Developer",
+          "period": "April 2020 - April 2021 | Lahore, Pakistan",
+          "achievements": [
+            "Successfully migrated legacy Java application to Kotlin",
+            "Enhanced app architecture with Room database and MVVM pattern for offline capabilities"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "title": "Featured Projects",
+      "items": [
+        {
+          "name": "Smart Transfer",
+          "url": "https://play.google.com/store/apps/details?id=com.aomatatech.datatransferapp.filesharing",
+          "description": "Smart Transfer is a high-performance file sharing app with 10M+ downloads. It enables fast data transfer via Wi-Fi and hotspot, phone cloning, and internet-based sharing, while also offering productivity tools like bookmarks, storage and contacts clutter manager, and device stats (Wi-Fi and battery)"
+        },
+        {
+          "name": "UNATION Events",
+          "url": "https://play.google.com/store/apps/details?id=com.unation.app",
+          "description": "Location-based event discovery platform with advanced geofencing, MVVM architecture, REST API integration, and Kotlin Coroutines"
+        },
+        {
+          "name": "Logo Maker Pro",
+          "url": "https://play.google.com/store/apps/details?id=org.contentarcade.apps.logomaker",
+          "description": "Creative design tool with 10M+ downloads, featuring Canvas drawing engine and AWS cloud integration for professional logo creation"
+        },
+        {
+          "name": "Additional Portfolio",
+          "url": "",
+          "description": "<a href=\"https://play.google.com/store/apps/details?id=org.contentarcadeapps.plagiarismchecker\" target=\"_blank\">Plagiarism Checker</a> • <a href=\"https://play.google.com/store/apps/details?id=com.ca.pdf.editor.converter.tools\" target=\"_blank\">PDF Converter</a> • <a href=\"https://play.google.com/store/apps/details?id=com.covermaker.thumbnail.maker\" target=\"_blank\">Thumbnail Maker</a> • <a href=\"https://play.google.com/store/apps/details?id=com.grammar.checker.corrector\" target=\"_blank\">Grammar Checker</a>"
+        }
+      ]
+    },
+    {
+      "type": "education",
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Bachelor of Science in Information Technology (BSIT)",
+          "institution": "University of Sargodha, Sargodha, Pakistan • 2020"
+        },
+        {
+          "degree": "Intermediate in Computer Science (ICS)",
+          "institution": "Board of Intermediate & Secondary Education, Lahore • 2015"
+        },
+        {
+          "degree": "Matric (Science)",
+          "institution": "Board Intermediate and Secondary Education Lahore, Pakistan | 2013"
+        }
+      ]
+    }
+  ]
+}
